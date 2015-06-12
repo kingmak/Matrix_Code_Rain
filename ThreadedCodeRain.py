@@ -34,6 +34,7 @@ TitleThread = threading.Thread(target = ChangeTitle)
 MatrixThread = threading.Thread(target = CodeMatrix)
 ColorThread = threading.Thread(target = ColorChange)
 
+os.system('color 0a')
 TitleThread.start()
 MatrixThread.start()
-ColorThread.start()
+#ColorThread.start()
